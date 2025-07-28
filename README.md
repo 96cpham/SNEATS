@@ -50,7 +50,7 @@ The Project is a chatbot inside of Snapchat Starter code, that you can ask this 
 
 ### Built With 
 
-- React
+- React Native
 - Supabase
 
 
