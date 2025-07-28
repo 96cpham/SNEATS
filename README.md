@@ -1,36 +1,84 @@
-# Final Project Starter
+# SNEATS
 
-This will be the starter code for your final project! But first, we're going to spend a day making improvements to it. We'll use pull requests to manage this, and for that you'll need to be on your own branch. You can work in pairs or on your own.
+<a id="readme-top"></a>
 
-## Fork the Repository 
-Click on the Fork button: This is usually found in the top-right corner of the repository's page. This will create a copy of the repository under your own GitHub account.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="[https://github.com/github_username/repo_name](https://github.com/96cpham/SNEATS)">
+    <img src="./sneats ghost.png" alt="Logo" width="180" height="80">
+  </a>
 
-## Clone the Forked Repository
-1. Go to your forked repository on GitHub.
-2. Click on the green "Code" button and copy the command.
-3. Open your terminal or Git Bash and run it! It'll look like this: 
-```js
-gh repo clone your-username/repository-name
-```
+<h3 align="center">project_title</h3>
 
-4. Navigate to the repository directory
+  <p align="center">
+    SHORT project_description (Ex. Todo App)
+    <br />
+    <a href="[https://github.com/github_username/repo_name](https://github.com/96cpham/SNEATS)"><strong>Explore the Docs Link»</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-# Install Packages
-1. Run the following command to be able to run your program.
-```js
-$ npx expo installs
-```
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-# Set Up the Upstream Remote
-1. Add the original repository as a remote: This allows you to pull in updates from the original repository.
-```js
-$ git remote add upstream https://github.com/Snap-Engineering-Academy-2025/SnapChatStarterForkable.git
-```
-2. Verify the new remote named 'upstream'
+<!-- ABOUT THE PROJECT -->
 
-```js
-$ git remote -v
-```
-##  Add Supabase Environment Variable!
+## About The Project
 
-Get the code running! You'll need to rename `.env.example` to `.env.local` file. You should be able to reuse the Supabase keys from earlier's week project.
+The Project is a chatbot inside of Snapchat Starter code, that you can ask this chatbot a type of food you want to eat (say "italian") and it give you several resturants near you and a map where they are.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With 
+
+- [![React][React.js]][React-url]
+- [![Supabase][Supabase.com]][Supabase-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Installation
+
+1. Get a free Google Places API Key at [https://developers.google.com](https://developers.google.com/maps/documentation/places/web-service/get-api-key?setupProd=enable)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/96cpham/SNEATS.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `.env.local`
+   ```js
+   const API_KEY = "ENTER YOUR API";
+   ```
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
