@@ -6,13 +6,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/96cpham/SNEATS">
-    <img src="./assets/sneats ghost.png" alt="Logo" width="180" height="80">
+    <img src="./assets/sneats ghost.png" alt="Logo" width="180" height="300">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">SNEATS</h3>
 
   <p align="center">
-    SHORT project_description (Ex. Todo App)
+    When You Want To Eat, You Gotta Eat!
     <br />
     <a href="https://github.com/96cpham/SNEATS"><strong>Explore the Docs Link»</strong></a>
     <br />
