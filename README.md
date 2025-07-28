@@ -5,8 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/github_username/repo_name](https://github.com/96cpham/SNEATS)">
-    <img src="./sneats ghost.png" alt="Logo" width="180" height="80">
+  <a href="https://github.com/96cpham/SNEATS">
+    <img src="./assets/sneats ghost.png" alt="Logo" width="180" height="80">
   </a>
 
 <h3 align="center">project_title</h3>
@@ -14,7 +14,7 @@
   <p align="center">
     SHORT project_description (Ex. Todo App)
     <br />
-    <a href="[https://github.com/github_username/repo_name](https://github.com/96cpham/SNEATS)"><strong>Explore the Docs Link»</strong></a>
+    <a href="https://github.com/96cpham/SNEATS"><strong>Explore the Docs Link»</strong></a>
     <br />
     <br />
   </p>
@@ -50,8 +50,8 @@ The Project is a chatbot inside of Snapchat Starter code, that you can ask this 
 
 ### Built With 
 
-- [![React][React.js]][React-url]
-- [![Supabase][Supabase.com]][Supabase-url]
+- React
+- Supabase
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
